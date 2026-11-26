@@ -1,0 +1,27 @@
+root_dir: /home/hai/Compound_Screen/ML_Virtual_Screening
+
+model_paths:
+  EGFR:
+    RF: models/EGFR/RF/rf_py310deepchem_01.pkl
+    XGBoost: models/EGFR/XGBoost/xbg_py310deepchem_01.pkl
+    DMPNN: models/EGFR/DMPNN
+
+  AChE:
+    RF: models/AChE/RF/rf_py310deepchem_01.pkl
+    XGBoost: models/AChE/XGBoost/xbg_py310deepchem_01.pkl
+    DMPNN: models/AChE/DMPNN
+
+  BACE1:
+    RF: models/BACE1/RF/rf_py310deepchem_01.pkl
+    XGBoost: models/BACE1/XGBoost/xbg_py310deepchem_01.pkl
+    DMPNN: models/BACE1/DMPNN
+
+  SARS-CoV-2-MPro:
+    RF: models/SARS-CoV-2-MPro/RF/rf_py310deepchem_01.pkl
+    XGBoost: models/SARS-CoV-2-MPro/XGBoost/xbg_py310deepchem_01.pkl
+    DMPNN: models/SARS-CoV-2-MPro/DMPNN
+
+  Neuraminidase-1:
+    RF: models/Neuraminidase-1/RF/rf_py310deepchem_01.pkl
+    XGBoost: models/Neuraminidase-1/XGBoost/xbg_py310deepchem_01.pkl
+    DMPNN: models/Neuraminidase-1/DMPNN
