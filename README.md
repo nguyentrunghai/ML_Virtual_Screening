@@ -165,3 +165,18 @@ compound_id,smiles,ensemble_predicted_dG
 CMPD_001,Cc1ccc(cc1)-c1nn(c2ncnc(N)c12)C(C)(C)C,-8.570490578363147
 CMPD_002,COc1cc(C=C(C#N)C#N)cc(O)c1O,-6.462504075584761
 ```
+
+## Installation & Cloning
+
+This repository uses **Git LFS** to store trained model weights (`.pkl` files). You must install Git LFS before cloning so the actual model files are downloaded instead of pointer files.
+
+### 1. Install Git LFS
+* **Ubuntu / Debian:** `sudo apt install git-lfs`
+* **macOS (Homebrew):** `brew install git-lfs`
+* **Windows:** `winget install GitHub.GitLFS`
+
+### 2. Initialize and Clone
+```bash
+git lfs install
+git clone [https://github.com/nguyentrunghai/ML_Virtual_Screening.git](https://github.com/nguyentrunghai/ML_Virtual_Screening.git)
+cd ML_Virtual_Screening
